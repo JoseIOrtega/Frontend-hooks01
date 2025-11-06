@@ -8,7 +8,6 @@ function Counter2() {
     
     return (
         <div>
-            <hr />
             <p>Has hecho clic {count} veces</p>
             <button onClick={() => setCount(count + 1)}>Incrementar</button>
             <button onClick={() => setCount(count - 1)}>Decrementar</button> 
